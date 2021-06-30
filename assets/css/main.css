@@ -426,3 +426,63 @@ main .contact .container form .right-align {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+/* Sause Finder */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #272442;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#searchBox {
+  border-radius: 50px;
+  padding: 15px;
+  background: #11101d;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15) -6px -6px 10px -1px
+    rgba(255, 255, 255, 0.7);
+}
+#nhentaiIcon {
+  width: 50px;
+  cursor: pointer;
+}
+
+input {
+  font-size: 20px;
+  color: #fff;
+  width: 0px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  transition: 1s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.active input {
+  width: 165px;
+  padding: 12px 20px;
+}
+#nhentaiButton {
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #11101d;
+  color: white;
+  font-size: 22px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+.active #nhentaiButton {
+  height: 50px;
+  width: 50px;
+}
+.active #searchBox {
+  padding: 0px;
+}

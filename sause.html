@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sause finder</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="shortcut icon" type="image/png"
+        href="https://www.nicepng.com/png/full/21-211326_uchiha-madara-ems-for-linearts-by-dh-mangekyou.png">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2><span>Star</span>Scream</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+    </header>
+    <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <div class="hero">
+            <div id="searchBox">
+                <img src="/assets/images/nhentai.png" id="nhentaiIcon">
+                <input id="nhentaiInput" type="number" placeholder="Article Code">
+                <button id="nhentaiButton" onclick="window.open('https://nhentai.net/random', '_blank');"><i
+                        class='bx bxs-keyboard'></i></button>
+                <!--<img src="google_mic.png" class="mic-icon">-->
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/nhentai.js"></script>
+    <script src="./assets/js/search.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
