@@ -486,3 +486,9 @@ input::-webkit-inner-spin-button {
 .active #searchBox {
   padding: 0px;
 }
+/*
+main section.background{
+  background-image: url("../images/header.jpg");
+  background-position: top right;
+  background-size: cover;
+}
